@@ -127,7 +127,7 @@ sim_data %>%
   )
 }
 
-sim_mean_sd(100, 6, 3)
+sim_mean_sd(sample_size = 100, mu = 6, signma = 3)
 ```
 
 
