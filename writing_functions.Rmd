@@ -228,7 +228,7 @@ all_reviews = bind_rows(
 )
 ```
 
-## Mean scoping exmaple
+## Mean scoping example
 
 ```{r}
 f = function(x) {
