@@ -65,7 +65,7 @@ z_scores(mtcars)
 z_scores(c(TRUE, TRUE, FALSE, TRUE))
 ```
 
-## Multiole outputs
+## Multiple outputs
 
 ```{r}
 mean_and_sd = function(x){
@@ -114,10 +114,10 @@ sim_data %>%
 
 
 ```{r}
-sim_mean_sd = function(sample_size, mu, signma) {
+sim_mean_sd = function(sample_size, mu, signa) {
   sim_data = 
     tibble(
-    x = rnorm(n = sample_size, mean = mu, sd = signma)
+    x = rnorm(n = sample_size, mean = mu, sd = signa)
   )
 
 sim_data %>% 
@@ -127,7 +127,7 @@ sim_data %>%
   )
 }
 
-sim_mean_sd(sample_size = 100, mu = 6, signma = 3)
+sim_mean_sd(sample_size = 100, mu = 6, signa = 3)
 ```
 
 
